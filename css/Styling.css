@@ -23,6 +23,10 @@ h1, h2{
     border-bottom:solid 0.1em #fff;
     margin:0px;
 }
+.panel{
+    border:solid 1px #20A1CE;
+    border-radius:0.5em;
+}
 .panel-heading{
     border-radius:0.5em 0.5em 0 0;
     background:#20A1CE;
@@ -31,7 +35,7 @@ h1, h2{
 }
 .panel-body{
     border-radius:0 0 0.5em 0.5em;
-    background:#F2F2F2 0 2em;
+    background:#F2F2F2;
 }
 .row{
     padding:0;
