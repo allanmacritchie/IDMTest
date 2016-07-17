@@ -1,7 +1,75 @@
 body{
     font-family: 'Open Sans', sans-serif;
+    font-size:16px;        
+    }
+h1{
+    font-weight: 700;
 }
-.panel-header{
-    color:#fff;
-    background:#20A1CE;
+h1, h2{
+    font-size:2em;
+}
+.container-fluid{
+    width:70%;
+    margin:15%;
+}
+.description{
+    color:#ADADAD;
+}
+.left, .right{
+    display:inline-block;
+}
+.line{
+    background:#f2f2f2;
+    border-bottom:solid 0.1em #fff;
+    margin:0px !important;
+}
+.panel-heading{
+    border-radius:0.5em 0.5em 0 0;
+    background:#20A1CE !important;
+    color:#fff !important;
+    padding:0.75em 2em;
+}
+.panel-body{
+    border-radius:0 0 0.5em 0.5em;
+    background:#F2F2F2 0 2em;
+}
+.row{
+    padding:0;
+    display:block;
+}
+/* Small screen */
+@media(max-width:767px){
+    body{
+        font-size:0.6em;
+    }
+    .left{
+        width:80%;
+    }
+    .right{
+        width:15%;
+    }
+}
+/*Medium screen */
+@media(min-width:768px){
+    body{
+        font-size:0.75em;
+    }
+    .left{
+        width:81.25%;
+    }
+    .right{
+        width:15%;
+    }
+}
+/* Large screen */
+@media(min-width:992px){
+    body{
+        font-size:1em;
+    }
+    .left{
+        width:82.5%;
+    }
+    .right{
+        width:15%;
+    }
 }
